@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.meie-script-regular {
+    font-family: "Meie Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Meie Script", cursive;
+    color: white;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    border-bottom: 1px solid aquamarine;
+}
+
+.world-feature {
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.island {
+    background: linear-gradient(to top right, transparent 60%, rgba(0,0,0)), url(./assets/thunderstorm-3417042_1280.jpg);
+    background-size: cover;
+    background-position: top left;
+}
+
+.epherball{
+    text-align: right;
+    background: linear-gradient(to top left, transparent 60%, rgba(0,0,0)), url(./assets/surfing-5620531_1280.jpg);
+    background-size: cover;
+    background-position: top left;
+}
+
+.right-heading {
+    background: linear-gradient(to left, black 15%, transparent);
+    color: aliceblue;
+}
+
+.left-heading {
+    background: linear-gradient(to right, black 15%, transparent);
+    color: aliceblue;
+}
+.world-feature-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
