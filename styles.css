@@ -45,6 +45,11 @@ header {
     background-size: auto;
     background-position: center;
 }
+cuisine-header{
+    background: linear-gradient(to left, transparent 60%, rgba(0,0,0)), url(./assets/platter-2009590_1280.jpg);
+    background-size: auto;
+    background-position: center;
+}
 
 
 .home {
