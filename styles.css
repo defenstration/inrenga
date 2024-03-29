@@ -1,8 +1,14 @@
+:root {
+
+}
+
 body {
     background-color: black;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    margin: 0;
+
 }
 
 .meie-script-regular {
@@ -16,11 +22,33 @@ h1 {
     color: white;
     font-weight: 100;
     text-decoration: underline;
+    font-size: 50px;
+    padding-top: 15px;
+    margin: 0;
 }
 
 header {
     background-color: black;
     border-bottom: 1px solid aquamarine;
+    margin-top: 0;
+    height: 100px;
+}
+
+.epherball-header{
+    background: linear-gradient(to left, transparent 60%, rgba(0,0,0)), url(./assets/surfing-trim.png);
+    background-size: auto;
+    background-position: center;
+}
+
+.world-header{
+    background: linear-gradient(to left, transparent 60%, rgba(0,0,0)), url(./assets/map-4709863.svg);
+    background-size: auto;
+    background-position: center;
+}
+
+
+.home {
+    background: linear-gradient(to left, transparent 60%, rgba(0,0,0)), url(./assets/earth-1388003_1280.jpg);
 }
 
 .world-feature {
@@ -59,4 +87,28 @@ header {
     width: 90%;
     align-items: center;
     justify-content: space-around;
+}
+
+#navlinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 1.5rem;
+}
+
+.travel-inrenga {
+    width: 90%;
+    border: 1px solid white;
+    height: 400px;
+    margin: 15px auto;
+}
+
+p {
+    color: aquamarine
 }
